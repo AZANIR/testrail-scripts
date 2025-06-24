@@ -1,0 +1,29 @@
+{
+  "name": "testrail-title-synchronization",
+  "version": "2.0.0",
+  "description": "TestRail Test Case Title Synchronization Tool",
+  "main": "updateTitlesTestRail.js",
+  "type": "module",
+  "scripts": {
+    "sync": "node updateTitlesTestRail.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "author": "Leonid Maievskyi",
+  "license": "ISC",
+  "keywords": [
+    "testrail",
+    "testing",
+    "synchronization",
+    "automation"
+  ]
+} 
